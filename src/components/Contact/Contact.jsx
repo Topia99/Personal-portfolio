@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
@@ -17,13 +18,13 @@ const Contact = () =>{
                     <h1>Let's talk</h1>
                     <p>Contact me anytime.</p>
                     <div className="contact-details">
-                        <div className="contact-detial">
+                        <div className="contact-detail">
                             <img src={mail_icon} alt="" /> <p>jasonzeng@gmail.com</p>
                         </div>
-                        <div className="contact-detial">
+                        <div className="contact-detail">
                             <img src={call_icon} alt="" /> <p>+626-233-9734</p>
                         </div>
-                        <div className="contact-detial">
+                        <div className="contact-detail">
                             <img src={location_icon} alt="" /> <p>CA, United State</p>
                         </div>
                     </div>
