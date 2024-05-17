@@ -5,7 +5,7 @@ import profile_img from '../../assets/profile_pic.jpg'
 
 const About = () => {
     return (
-        <div className='about'>
+        <div id="about" className='about'>
             <div className="about-title">
                 <h1>About me</h1>
                 <img src={theme_pattern} alt="" />
@@ -17,11 +17,16 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            I am an experienced frontend Developer with over a decade of professional expertise in the field.
-                            Throughout my career, I have had the privilege of collaborating with prestigious organizations,
-                            contrubuting to their success and growth.
+                            I'm a senior student at California State University, Fullerton (CSUF), set to graduate in the fall of 2024.
+                            My ambition is to become a full-stack developer, and I have dedicated myself to this goal by completing numerous
+                            individual projects. Through these projects, I've gained hands-on experience in both front-end and back-end development,
+                            and I'm eager to bring my skills and passion to professional setting. 
                         </p>
-                        <p>My passion for frontend development is not only</p>
+                        <p>I am also the backend engineer at a small startup company named Picgent. We are currently working on a project
+                            to build an IOS mobile app that helps people search for specific photos in their photo library using text
+                            descriptions. My job including construct the database and back-end framework. Our project is currently in the test
+                            flight stage and will launch in June 2024.
+                        </p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "60%"}}></hr></div>
@@ -33,18 +38,18 @@ const About = () => {
             </div>
             <div className="about-achievements">
                 <div className="about-achievement">
-                    <h1>10+</h1>
+                    <h1>5+</h1>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>90+</h1>
+                    <h1>10+</h1>
                     <p>PROJECTS COMPLETED</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>15+</h1>
-                    <p>HAPPY CLIENTS</p>
+                    <h1>20+</h1>
+                    <p>HAPPY PROFESSORS</p>
                 </div>
             </div>
         </div>
