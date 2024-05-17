@@ -43,7 +43,10 @@ const Contact = () =>{
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
-                    <p>Contact me anytime.</p>
+                    <p>
+                    I am graduating by the end of 2024 and am eager to take on any project, 
+                    internship, or job. Feel free to contact me if you're interested in hiring me.
+                    </p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="" /> <p>jasonzeng@gmail.com</p>
